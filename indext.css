@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	width: 500px;
+	margin: 0 auto;
+	height: 200px;
+	background-image: url(AP5QTE@$HZ80XAD%5B%5B%7BMI_%5BE.jpg);
+	 background-size: 500px 200px;
+}
+#header h3{
+	float: left;
+	margin: 20px 20px;
+	width: 20%;
+}
+#header h3 a{
+	display: block;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: black;
+	font-weight: 400;
+	text-decoration: none;
+	border: black 2px solid;
+}
+#header ul{
+	width: 80%;
+	margin: 0 100px;
+}
+#header ul li{
+	float: left;
+	list-style: none;
+	width: 100px;
+	margin-left: 10px;
+	line-height: 70px;
+}
+#header ul li a{
+	color: #000000;
+	text-decoration: none;
+}
+#header ul li a:hover{
+	color: red;
+	transition:color 700ms;
+}
+#my{
+	width: 500px;
+	margin: 0 auto;
+	height: 750px;
+	background: #a3b0f5;
+}
+#my .a{
+	width: 480px;
+	height: 110px;
+	background-color: white;
+	margin: 0 auto;
+	position: relative;
+	bottom: 50px;
+}
+#my .a h2{
+	font-size: 18px;
+	font-weight: 550;
+	text-align: center;
+}
+#my .a h4{
+	font-size: 15px;
+	line-height: 30px;
+	margin-left: 20px;
+}
+#my .a p{
+	text-align: left;
+	font-size: 13px;
+	margin: 0 20px;
+	line-height: 20px;
+}
+#my .b{
+	width: 480px;
+	height: 150px;
+	background-color: white;
+	margin: 0 auto;
+}
+#my .b h2{
+	font-size: 18px;
+	font-weight: 550;
+	text-align: center;
+}
+#my .b h4{
+	font-size: 15px;
+	line-height: 30px;
+	margin-left: 20px;
+}
+#my .b p{
+	text-align: left;
+	font-size: 13px;
+	margin: 0 20px;
+	line-height: 20px;
+}
+#my .c{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#my .f{
+	width: 480px;
+	height: 420px;
+	background-color: white;
+	margin: 50px auto;
+}
+#my .f h2{
+	font-size: 18px;
+	font-weight: 550;
+	text-align: center;
+	line-height: 50px;
+}
